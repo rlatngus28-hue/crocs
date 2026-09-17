@@ -9,34 +9,37 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/var.css">
 </head>
 <body>
     <!-- -----------------------------------------------------------------0. banner -->
     <div class="header_banner">
-        <span>지비츠™ 참 최대 30% 할인</span>
-        <span>크록스 클럽 신청 시, 15% 할인 쿠폰 지급</span>
-        <span>크록스코리아 카톡 채널 추가 시 쿠폰 지급</span>
+        <a>지비츠™ 참 최대 30% 할인</a>
+        <a>크록스 클럽 신청 시, 15% 할인 쿠폰 지급</a>
+        <a>크록스코리아 카톡 채널 추가 시 쿠폰 지급</a>
     </div>
     <!-- -----------------------------------------------------------------1. header -->
     <header>
-        <div class="header_gnb">
-            <button type="button" class="menu_open_btn"><img src="./images/header_manu.png" alt="전체메뉴보기"></button>
-            <a href="#" class="megaweek_btn">MEGA WEEK</a>
-            <a href="#" class="new_btn">NEW</a>
-            <a href="#" class="best_btn">BEST</a>
-            <a href="#" class="workshoes_btn">WORK SHOES</a>
-            <a href="#" class="exp_btn">EXP</a>
-        </div>
-        <h1 class="header_login"><a href="#"><img src="./images/logo.png" alt="CROCS"></a></h1>
-        <div class="header_icon">
-            <a href="#" class="search_btn"><img src="./images/header_search.png" alt="검색하기"></a>
-            <a href="#" class="login_btn"><img src="./images/header_login.png" alt="로그인"></a>
-            <a href="#" class="basket_btn"><img src="./images/header_badket.png" alt="장바구니"></a>
+        <div class="header flex-row-between">
+            <div class="header_gnb flex-row-center">
+                <button type="button" class="menu_open_btn"><img src="./images/header_manu.png" alt="전체메뉴보기"></button>
+                <a href="#" class="megaweek_btn">MEGA WEEK</a>
+                <a href="#" class="new_btn">NEW</a>
+                <a href="#" class="best_btn">BEST</a>
+                <a href="#" class="workshoes_btn">WORK SHOES</a>
+                <a href="#" class="exp_btn">EXP</a>
+            </div>
+            <h1 class="header_login"><a href="#"><img src="./images/logo.png" alt="CROCS"></a></h1>
+            <div class="header_icon flex-row-center">
+                <a href="#" class="search_btn"><img src="./images/header_search.png" alt="검색하기"></a>
+                <a href="#" class="login_btn"><img src="./images/header_login.png" alt="로그인"></a>
+                <a href="#" class="basket_btn"><img src="./images/header_badket.png" alt="장바구니"></a>
+            </div>
         </div>
     </header>
     <!-- -----------------------------------------------------------------2. category -->
-    <div class="category">
-        <a href="#" class="classic"><img src="./images/category_classic.png" alt="클래식">클래식</a>
+    <div class="category flex-row-center">
+        <a href="#" class="classic "><img src="./images/category_classic.png" alt="클래식">클래식</a>
         <a href="#" class="echo"><img src="./images/category_echo.png" alt="에코II">에코II</a>
         <a href="#" class="ballet"><img src="./images/category_ballet.png" alt="발레">발레</a>
         <a href="#" class="crafted"><img src="./images/category_crafted.png" alt="크래프티드">크래프티드</a>
@@ -45,9 +48,9 @@
     </div>
     <!-- -----------------------------------------------------------------3. new -->
     <div class="new">
-        <div class="title">
+        <div class="title flex-col-center">
             <h2 class="title_main">NEW</h2>
-            <ul>
+            <ul class="flex-row-center">
                 <li><a href="#" class="title_serve1">전체</a></li>
                 <li><a href="#" class="title_serve1">여성</a></li>
                 <li><a href="#" class="title_serve1">남성</a></li>
@@ -56,7 +59,6 @@
                 <li><a href="#" class="title_serve1">액세러리</a></li>
             </ul>
         </div>
-        ul
     </div>
 </body>
 </html>

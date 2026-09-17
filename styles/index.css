@@ -1,0 +1,62 @@
+/* index.css */
+/* ------------------------------------------------------------공통 디자인 */
+body {
+    width:1920px;
+    min-height:5000px;
+    margin: auto;
+}
+/* ------------------------------------------------------------00. banner 디자인 */
+.header_banner {
+    background-color:#77B802;
+    padding:6px;
+    text-align: center;
+    font-size:14px;
+}
+.header_banner a {width:100%; color:#fff;}
+/* ------------------------------------------------------------01. header 디자인 */
+header {
+    background-image:url(../images/bammer_bg01.png);
+    background-position:center; left:0%; top:0%;
+    background-size:cover;
+    height:900px;
+}
+.header {
+    position:fixed;
+    padding:0 100px;
+    background-color:#fff;
+    width:1920px;
+}
+header .header_gnb {
+    gap:20px;
+    padding:12px 0;
+}
+header .header_gnb .menu_open_btn {}
+header .header_gnb .menu_open_btn img {width:100%;}
+header .header_gnb a {font-weight:700;}
+header .header_gnb .megaweek_btn {}
+header .header_gnb .new_btn {}
+header .header_gnb .best_btn {}
+header .header_gnb .worksgoes_btn_btn {}
+header .header_gnb .exp_btn {}
+header .header_login {position:absolute; left:45%; width:200px; height:50px;}
+header .header_login a {}
+header .header_login a img {width: 100%;}
+header .header_icon {gap:12px;}
+header .header_icon .search_btn {}
+header .header_icon .login_btn {}
+header .header_icon .basket_btn {}
+/* ------------------------------------------------------------02. category 디자인 */
+.category {gap:50px; padding-top:100px;}
+.category a {
+    display:flex; flex-flow:column nowrap;
+    justify-content:center; align-items:center;
+    gap:10px;
+}
+.category a img {width:150px; height:70px;}
+/* ------------------------------------------------------------03. new 디자인 */
+.new {padding:150px 100px;}
+.new .title {gap:14px;}
+.new .title .title_main {font-size:46px; font-weight:700;}
+.new .title ul {gap:30px;}
+.new .title ul li {}
+.new .title ul li a {}

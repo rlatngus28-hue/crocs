@@ -1,0 +1,38 @@
+/* var.css */
+:root {
+    /* 배경, 본문 색상 */
+    --color-bg:#77B802;
+    --color-black:#000;
+    --color-serve:#DBFF99;
+    --color-red:#FF0000;
+
+    /* 폰트 크기 */
+    --m-font-size-ss:0.875em;/* SS(14px) */
+    --m-font-size-ml:1em;/* SM(16px) */
+    --m-font-size-base:1.125em;/* M(18px) */
+    --m-font-size-sm:2em;/* XXL(32px) */
+    --m-font-size-lg:6.25em;/* XXXL(100px) */
+
+    /* 모서리 */
+    --radius-sm:6px;
+    --radius-ml:15px;
+
+}
+
+/* 공통 디자인 class */
+.flex-row-center {/* 가로 센터 */
+    display:flex; flex-flow:row nowrap;
+    justify-content:center; align-items:center;
+}
+.flex-row-between { /* 가로 양 끝 */
+    display:flex; flex-flow:row nowrap;
+    justify-content:space-between; align-items:center;
+}
+.flex-col-center { /* 세로 센터 */
+    display:flex; flex-flow:column nowrap;
+    justify-content:center; align-items:center;
+}
+.flex-col-between { /* 세로 양 끝 */
+    display:flex; flex-flow:column nowrap;
+    justify-content:space-between; align-items:center;
+}
